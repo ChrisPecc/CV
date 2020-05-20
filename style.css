@@ -1,0 +1,78 @@
+.profilepic {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+
+.gridcontainer {
+    display: grid;
+    grid-template-columns: 100px 50px 200px 25px 25px minmax(600px, 70%) 100px;
+    /*grid-template-rows: 100px 20px 130px 20px repeat(auto-fit, 150px); */
+    grid-template-rows: repeat(120, 150px); 
+    grid-gap: 15px;
+    min-width: 800px;
+}
+
+.namefunction {
+    grid-column: 6 / 7;
+    grid-row: 3 / 4;
+}
+
+.picture {
+    grid-column: 3 / 4;
+    grid-row: 2 / 5;
+}
+
+.contact {
+    grid-column: 3 / 4;
+    grid-row: 5 / 6;
+    width: 200px;
+    overflow: hidden;
+    border: 1px solid black;
+}
+
+.languages {
+    grid-column: 3 / 4;
+    grid-row: 6 / 7;
+    overflow: hidden;
+    width: 200px;
+    border: 1px solid black;
+
+}
+
+.advantages {
+    grid-column: 3 / 4;
+    grid-row: 7 / 8;
+    width: 200px;
+    overflow: hidden;
+    border: 1px solid black;
+}
+
+.qualities {
+    grid-column: 3 / 4;
+    grid-row: 8 / 9;
+    width: 200px;
+    overflow: hidden;
+    border: 1px solid black;
+}
+
+.formation {
+    grid-column: 6 / 7;
+    grid-row: 5 / 7;
+    overflow: hidden;
+}
+
+.proexperience {
+    grid-column: 6 / 7;
+    grid-row: 7 / 9;
+    overflow: hidden;
+}
+
+.otherexperience {
+    grid-column: 6 / 7;
+    grid-row: 9 / 11;
+    overflow: hidden;
+}

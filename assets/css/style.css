@@ -91,7 +91,8 @@
 
 .mainsectionbig {
     width: 560px;
-    min-height: 400px;
+    min-height: 280px;
+    padding: 19px;
     height: fit-content;
     height: max-content;
     border: 1px solid grey;
@@ -109,11 +110,15 @@
 }
 
 .sidesectionbig {
-    min-width: 400px;
-    width: fit-content;
-    min-height: 400px;
-    height: auto;
+    min-width: 200px;
+    width: max-content;
+    max-width: 250px;
+    min-height: 110px;
+    height: max-content;
+    border: 1px solid grey;
+    padding: 19px;
     z-index: 10;
+
 }
 
 /* autres mise en formes du textes */
@@ -132,4 +137,17 @@ em {
 h1 {
     margin: 0px;
     line-height: 125%;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+.fctcomite {
+    font-weight: bold;
+}
+
+.sidelist {
+    list-style-type: none;
+    margin-left: -30px;
 }

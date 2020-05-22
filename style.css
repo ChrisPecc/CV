@@ -13,7 +13,7 @@
 .gridcontainer {
     display: grid;
     grid-auto-rows: 150px;
-    grid-template-columns: 100px 50px 200px 25px 25px 700px 100px;
+    grid-template-columns: 100px 50px 200px 25px 25px 600px 100px;
     grid-template-rows: 100px 20px 130px 20px auto;
     grid-gap: 15px;
     min-width: 800px;
@@ -90,9 +90,11 @@
 }
 
 .mainsectionbig {
-    width: 660px;
+    width: 560px;
     min-height: 400px;
     height: fit-content;
+    height: max-content;
+    border: 1px solid grey;
     z-index: 10;
 }
 
@@ -110,7 +112,7 @@
     min-width: 400px;
     width: fit-content;
     min-height: 400px;
-    height: fit-content;
+    height: auto;
     z-index: 10;
 }
 
@@ -125,4 +127,9 @@ em {
     font-size: 24px;
     color: white;
     padding-left: 200px;
+}
+
+h1 {
+    margin: 0px;
+    line-height: 125%;
 }

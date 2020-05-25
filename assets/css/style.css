@@ -9,7 +9,8 @@
   grid-template-rows: 100px 20px 130px 20px auto;
   grid-template-columns: 100px 50px 200px 25px 25px 600px 100px;
   grid-gap: 15px;
-  min-width: 800px; }
+  min-width: 800px;
+  margin-bottom: 50px; }
   .gridcontainer .blueband {
     grid-column-start: 1;
     grid-column-end: 9;
@@ -98,16 +99,16 @@
       color: #194119;
       font-family: 'Roboto', sans-serif;
       line-height: 150%; }
-  .gridcontainer .mainsection:hover {
-    -moz-box-shadow: 0 0 3px #080829;
-    -webkit-box-shadow: 0 0 3px #080829;
-    box-shadow: 0 0 3px #080829; }
+    .gridcontainer .mainsection:hover {
+      -moz-box-shadow: 0 0 3px #080829;
+      -webkit-box-shadow: 0 0 3px #080829;
+      box-shadow: 0 0 3px #080829; }
   .gridcontainer .mainsectionbig {
     width: 560px;
     min-height: 280px;
-    padding: 19px;
     height: fit-content;
     height: max-content;
+    padding: 19px;
     border: 1px solid grey;
     z-index: 10; }
   .gridcontainer .sidesection {
@@ -135,8 +136,8 @@
     max-width: 250px;
     min-height: 110px;
     height: max-content;
-    border: 1px solid grey;
     padding: 19px;
+    border: 1px solid grey;
     z-index: 10; }
   .gridcontainer h2 {
     margin-top: 0;
